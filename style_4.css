@@ -1,0 +1,142 @@
+.main{
+    margin-left: 600px;
+}
+.main-heading{
+    width: 600px;
+    height: 60px;
+    padding: 5px;
+    font-size: 20px;
+   
+}
+p{
+    width: 65%;
+    font-size: 30px;
+    font-weight: 200;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+   
+}
+.grid-content{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    grid-template-rows: auto auto auto auto auto;
+    width: 50%;
+    
+    
+}
+
+
+.grid-content > div{
+    padding: 10px;
+    border: 1px solid black;
+}
+.c1{
+    background-color: chocolate;
+    padding: 10px;
+}
+.c2{
+    background-color: darkgreen;
+}
+.c3{
+    background-color: orangered;
+}
+
+.u1{
+    background-color: red;
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: blue;
+    }
+    .main{
+        margin-left: 2px;
+    }
+    .main-heading{
+        width: 500px;
+        height: 60px;
+        padding: 5px;
+        font-size: 20px;
+        
+    }
+    p{
+        width: 400px;
+        font-size: 30px;
+        font-weight: 200;
+        padding: 10px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: oblique;
+        
+    }
+   
+} 
+
+@media only screen and (min-width: 600px) {
+    .main{
+        margin-left: 100px;
+    }
+    .main-heading{
+        width: 500px;
+        height: 60px;
+        padding: 5px;
+        font-size: 20px;
+        
+    }
+    p{
+        width: 400px;
+        font-size: 30px;
+        font-weight: 200;
+        padding: 10px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: oblique;
+        
+    }
+} 
+
+@media only screen and (min-width: 600px) {
+    .main{
+        margin-left: 100px;
+    }
+    .main-heading{
+        width: 500px;
+        height: 60px;
+        padding: 5px;
+        font-size: 20px;
+       
+    }
+    p{
+        width: 400px;
+        font-size: 30px;
+        font-weight: 200;
+        padding: 10px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: oblique;
+       
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .main{
+        margin-left: 600px;
+    }
+.main-heading{
+    width: 600px;
+    height: 60px;
+    padding: 5px;
+    font-size: 20px;
+    
+}
+p{
+    width: 600px;
+    font-size: 30px;
+    font-weight: 200;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+   
+}
+
+}
+
+ 

@@ -1,0 +1,61 @@
+.content{
+    width: 900px;
+    height: 700px;
+    margin-left: 500px;
+   
+}
+.img{
+    float: left;
+    margin: 20px;
+}
+.img1{
+    float: right;
+}
+.content-right{
+    float: right;
+    
+}
+.c1 > p{
+    float: left;
+}
+
+p{
+    font-size: 20px;
+    font-style: oblique;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 4px;
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: yellow;
+    }
+    .content{
+        width: 75%;
+        height: 700px;
+        margin-left: -1px;
+       
+    }
+} 
+
+@media only screen and (min-width: 600px) {
+    body{
+        background-color: aqua;
+    }
+    .content{
+        width: 75%;
+        height: 700px;
+        margin-left: -1px;
+       
+    }
+} 
+
+@media only screen and (min-width: 768px) {
+    
+    .content{
+        width: 900px;
+        height: 700px;
+        margin-left: 500px;
+       
+    }
+} 
